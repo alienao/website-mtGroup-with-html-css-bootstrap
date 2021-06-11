@@ -1,0 +1,166 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>MT GROUP</title>
+  </head>
+  <body style="background-color:#191919;">
+  
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark  ">
+  <a class="navbar-brand" href="index.html">
+    <img src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+    MT GROUP
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+    <ul class="navbar-nav ">
+      <li class="nav-item ">
+        <a class="nav-link" href="indexrus.html">Главная<span class="sr-only">(current)</span></a>
+      </li>
+	  
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Продукты
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:black;">
+          <a class="dropdown-item text-white" href="sarqavorumnerrus.html">Պնեվմո թափք և Կոշտ թափք</a>
+          <a class="dropdown-item text-white" href="sarqavorumnerrus.html">Կշռող համակարգեր դիմային բեռնիչների համար</a>
+          <a class="dropdown-item text-white" href="sarqavorumnerrus.html">Կշեռք ամբարձիչների համար</a>
+        </div>
+      </li>
+	  
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="mermasinrus.html" >О Компании</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="">Обратная связь</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="kap.html" style="font-size:12px; color:#E8BC8D">հայ</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="" style="font-size:12px; color:#E8BC8D">рус</a>
+      </li>
+    </ul>
+  </div>
+</nav>	
+
+
+  <div class="container-fluid mt-4" style="background-color:#191919;">
+  <div class="row">
+  <div class="col-md-12 mt-4">
+  <h1 class="text-center h2 text-white font-weight-bold">Обратная связь</h1>
+    <div class="card mx-auto mb-4 rounded-0" style="max-width: 35rem;background-color:#191919;">
+      <div class="card-body position-relative mt-4" style="border: 1px solid #fff;">
+
+        <!-- Форма обратной связи -->
+        <form id="feedbackForm" action="/examples/vendors/feedback/process/process.php" novalidate >
+          <div class="form-row">
+            <div class="col-sm-6">
+              <!-- Имя пользователя -->
+              <div class="form-group" >
+                <label for="name" class="control-label text-white" >Имя</label>
+                <input id="name" type="text" name="name" class="form-control" value=""  minlength="2" maxlength="30" required="required" style="background-color:#191919;">
+                <div class="invalid-feedback"></div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <!-- Email пользователя -->
+              <div class="form-group">
+                <label for="email" class="control-label text-white">Email-адрес</label>
+                <input id="email" type="email" name="email" required="required" class="form-control" value=""  style="background-color:#191919;">
+                <div class="invalid-feedback"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Сообщение пользователя -->
+          <div class="form-group">
+            <label for="message" class="control-label text-white">Сообщение</label>
+            <textarea id="message" name="message" class="form-control" s="3"  
+              maxlength="500" required="required" style="background-color:#191919;"></textarea>
+            <div class="invalid-feedback"></div>
+          </div>
+          <!-- Сообщение при ошибке -->
+          <div class="alert alert-danger form-error d-none">
+            Исправьте данные и отправьте форму ещё раз.
+          </div>
+          <!-- Кнопка для отправки формы -->
+          <div class="text-right submit">
+            <button type="submit" class="btn btn-light position-relative" disabled="disabled">Отправить сообщение</button>
+          </div>
+        </form>
+
+        <!-- Сообщение об успешной отправки формы -->
+        <div class="form-result-success d-none text-center justify-content-center align-items-center" style="position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.6); color: #fff; font-size: 1.25rem;">
+          <div class="alert alert-success rounded-0">Форма успешно отправлена. Нажмите на
+            <a class="alert-link" href="#" data-reloadform="#feedbackForm">ссылку</a>, чтобы отправить ещё одно сообщение.</div>
+        </div>
+
+      </div>
+    </div>
+	</div>
+	</div>
+	<div class="row justify-content-center">
+  <div class="footer1-contact col-md-6 mt-4 mb-4 text-center text-white">
+			<h3 class="text-white font-weight-bold">Контакты</h3>
+			<p>Абелян 6/4</p>	
+			<ul class="list-unstyled">
+				<li class="mt-2">Тел. +374 (044)77-66-76</li>
+			</ul>			
+			<ul class="list-unstyled">
+			    <li>Email-адрес:</li>
+				<li class="mt-2">mtgrouparmenia@gmail.com</li>
+				<li>info@mtgroup.am</li>
+			</ul>
+	   </div>
+	<div class="col-md-6 mt-4 mb-4">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.451198249041!2d44.47571881495611!3d40.19902527677564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd700543a499%3A0x168438d6f819c5bd!2zNiwgNCBBYmVsaWFuIFN0LCBZZXJldmFuLCDQkNGA0LzQtdC90LjRjw!5e0!3m2!1sru!2s!4v1544431792274" 
+	width="350" height="210" frameborder="0" style="border:0" allowfullscreen>
+	</iframe>
+	</div>
+	</div>
+  </div>
+
+<!-- jQuery -->
+  <script src="/examples/vendors/jquery/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap -->
+<script src="/examples/vendors/bootstrap-4.1/js/bootstrap.min.js"></script>
+
+<script src="/examples/vendors/feedback/js/process-forms.js"></script>
+<script src="/examples/vendors/feedback/js/main.js"></script>
+
+        
+	<div class="container-fluid v2">
+	<div class= "row footer">
+		<div class="col">
+			<div class="footer-copyright text-center">
+				<a class="footer-link " href="https://master.am/"
+				target="_blank">WebMaster Studio &copy; 2018</a>
+			</div>
+		</div>	
+	</div>		
+	</div>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
